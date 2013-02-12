@@ -1,4 +1,4 @@
-# Changes made by @lucho870601:
+# Added stuff:
 
 ## Image dimention mixin
 
