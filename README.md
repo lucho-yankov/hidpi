@@ -23,6 +23,8 @@ Added `sized-hidpi` mixin to supply the original image width and height as CSS p
 Added support for easier building of retina sprites based on [Gist: Magically retinafy your sprites with Compass and HiDPI](https://gist.github.com/4160546).
 
 ```scss
+$icons-layout: horizontal;
+$icons_x2-layout: horizontal;
 @import "icons/*.png";
 @import "icons_x2/*.png";
 @include retina-sprites-support($icons-sprites, $icons_x2-sprites);
